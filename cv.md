@@ -30,3 +30,16 @@ function highAndLow(numbers){
 ## Courses
 * [**The Rolling Scopes**](https://rs.school/js/): JS / FRONT-END. STAGE 0
 * [**Code-basics**](https://ru.code-basics.com/) and [**Learn.javascript**](https://learn.javascript.ru/): HTML, CSS and JavaScript
+
+## Education:
+
+**University**: Belarusian State University of Food and Chemical Technologies
+- Qualification: mechanical engineer
+
+## Pet projects:
+* [**Website**](https://rolling-scopes-school.github.io/kostyaprozhenik-JSFEPRESCHOOL/portfolio/)
+* [**Audio-player**](https://rolling-scopes-school.github.io/kostyaprozhenik-JSFEPRESCHOOL/audio-player/)
+
+## Language:
+
+**English level**: A2
