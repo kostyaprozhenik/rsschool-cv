@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;   
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 50px;
+  max-width: 1060px;
+  min-height: 1000px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left_Side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileText .avatar img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileText h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contact {
+  padding-top: 40px;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  position: relative;
+}
+
+.contact ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contact ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+
+.contact ul li span {
+  color: #fff;
+  font-weight: 300;
+}
+
+.contact ul li span a {
+  color: #fff;
+  font-weight: 300;
+}
+
+.contact.education h5 {
+  color: #03a9f4;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.contact.education h4:nth-child(2) {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.contact.education h4 {
+  color: #fff;
+  font-weight: 200;
+}
+
+.right_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.right_side_wrapper {
+  padding: 40px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+.about:last-child {
+  margin-bottom: 0;
+}
+
+.secondary_title {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(22, 22, 22, 0.2);
+}
+
+p {
+  color: #333;
+}
+
+.about .box {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary_box {
+  padding-top: 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.grid a {
+  position: relative;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.grid a,
+.grid img,
+.grid figcaption {
+  width: 200px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.grid > a img {
+  object-fit: cover;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  transform: translateY(100%);
+  transition: 0.4s;
+}
+
+.grid > a:hover figcaption {
+  transform: translateY(0%);
+}
+
+.grid figcaption > div {
+  text-align: center;
+}
+
+.project-name {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.project-description {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 12px;
+	font-size: 0.9rem;
+	color: #ffffff;
+	background: #677b85
+}
