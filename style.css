@@ -22,13 +22,19 @@ body {
 .container {
   position: relative;
   width: 100%;
-  margin: 50px;
   max-width: 1060px;
   min-height: 1000px;
   background: #fff;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 50px;
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 .container .left_Side {
